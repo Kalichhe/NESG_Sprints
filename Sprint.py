@@ -305,5 +305,3 @@ while running:
 
 
 pygame.quit()
-
-print("Hola")
