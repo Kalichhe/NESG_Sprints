@@ -91,22 +91,24 @@ class Player(pygame.sprite.Sprite):
             self.speed_x = 8
         self.rect.x += self.speed_x
 
-        keystate = pygame.key.get_pressed()
         if keystate[pygame.K_UP]:
             self.speed_y = -8
         if keystate[pygame.K_DOWN]:
             self.speed_y = 8
         self.rect.y += self.speed_y
+        
          
         if self.rect.right > WIDTH:
             self.rect.right = WIDTH
         if self.rect.left < 0:
             self.rect.left = 0
 
-        if self.rect.up > WIDTH:
-            self.rect.up = WIDTH
-        if self.rect.down < 0:
-            self.rect.down = 0
+        if self.rect.bottom > HEIGHT:
+            self.rect.bottom = HEIGHT
+        if self.rect.top < 0:
+            self.rect.top = 0
+
+        
 
         
  
