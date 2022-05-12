@@ -97,7 +97,6 @@ class Player(pygame.sprite.Sprite):
             self.speed_y = 8
         self.rect.y += self.speed_y
         
-         
         if self.rect.right > WIDTH:
             self.rect.right = WIDTH
         if self.rect.left < 0:
@@ -107,12 +106,6 @@ class Player(pygame.sprite.Sprite):
             self.rect.bottom = HEIGHT
         if self.rect.top < 0:
             self.rect.top = 0
-
-        
-
-        
- 
-         
  
     def shoot(self):
         bullet = Bullet(self.rect.centerx, self.rect.top)
