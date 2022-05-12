@@ -1,7 +1,7 @@
 
-from cProfile import run
+#from cProfile import run
 from pickle import TRUE
-from re import S
+#from re import S
 from sys import platlibdir
 from tkinter import CENTER, W, font
 from turtle import Screen
