@@ -177,6 +177,7 @@ def show_go_screen():
     draw_text(screen, "Historia", 30, WIDTH // 2, HEIGHT // 2)
     draw_text(screen, "Erase una vez una navecita espacial super galáctica, que viajaba por el espacio, ", 20, WIDTH // 2, HEIGHT // 1.8)
     draw_text(screen, "destruyendo meteoritos para no ser destruida, y poder sobrevivir por mucho más tiempo con el fin de poder volver a casa y ver a sus hijos y esposa.", 20, WIDTH // 2, HEIGHT // 1.7)
+    draw_text(screen, "::Presiona cualquier tecla y dirigete a la terminal::", 40, WIDTH // 2, HEIGHT // 1.3)
     pygame.display.flip()
     waiting = TRUE
     while waiting:
